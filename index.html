@@ -4,27 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
 </head>
 <body>
+    <div class="container">
+        <div class="profile">
+            <img src="foto.jpg" alt="Foto Profil">
+            <h1>Dina</h1>
+            <h2>Data Diri<h2>
+            
 
-    <h1>DATA DIRI SAYA</h1>
-    <p>HAI NAMA SAYA DINAAAA cantik</p>
-    <p> SAYA TINGGAL DI JL.DR SUTOMO LALODATI</p>
-    <p>Hobi saya adalah Bermain game khususnya PUBG</p>
+        <div class="education"></h2>
+            <p><strong>Nama Lengkap:</strong> Zakkiya Fitra Rahma Dina </p>
+            <p><strong>Alamat:</strong> Jl. Balaikota</p>
+            <p><strong>Email:</strong> Zakkiyafitrar@gmail.com</p>
+            <p><strong>Instagram:</strong> @rahma.dinaaaa</p>
+        </div>
+            <h2>Riwayat Pendidikan</h2>
+            <table>
+                <tr>
+                    <th>Jenjang</th>
+                    <th>Nama Sekolah</th>
+                </tr>
+                <tr>
+                    <td>TK</td>
+                    <td>TK Adhyaksa</td>
+                </tr>
+                <tr>
+                    <td>SD</td>
+                    <td>SDN 36 Kendari</td>
+                </tr>
+                <tr>
+                    <td>SMP</td>
+                    <td>SMPN 9 Kendari</td>
+                </tr>
+                <tr>
+                    <td>SMA</td>
+                    <td>SMAN 4 Kendari</td>
+                </tr>
+                <tr>
+                    <td>Kuliah</td>
+                    <td>Universitas Halu Oleo</td>
+                </tr>
+            </table>
+        </div>
 
-    <h2>Riwayat Hidup</h2>
-    <ul>
-        <li>TK : SANDA MASUMU</li>
-        <li>SD : SDN 61 KENDARI</li>
-        <li>SMP: SMPN 13 KENDARI</li>
-        <li>SMA: SMAN 6 KENDARI</li>
-        <li>KULIAH : UNIVERSITAS HALU OLEO</li>
-    </ul>
-
-    <P>My Wifey</P>
-    <img src = "kim_dami.jpg" high ="100" width= "100" alt="foto" class ="gambar">
-    <br>
-    <a href ="https://www.google.com"> kunjugi google</a>
-
+        <div class="contact-form">
+            <h2>Hubungi Saya</h2>
+            <form action="#" method="post">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" rows="4" required></textarea>
+                
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
